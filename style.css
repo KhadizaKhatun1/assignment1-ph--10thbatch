@@ -21,10 +21,10 @@ body{
 }
 .banner-content{
     margin-top: 5px;
-    /* width: 70%; */
-    /* height: 70%; */
-    /* padding-left: 100px;
-    margin-left: 400px; */
+    width: 70%;
+    /* height: 70%;
+    /* padding-left: 100px;*/
+    margin-left: 400px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
