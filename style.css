@@ -13,7 +13,7 @@ body{
     /* width: 1440px; */
     /* width: 1536px;*/
     min-height: 600px; 
-    background-image: url('../assets/Hero-bg.png');
+    background-image: url('./assets/Hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
