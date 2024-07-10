@@ -12,6 +12,7 @@ body{
 .banner-container{
     /* width: 1440px; */
     /* width: 1536px;*/
+    width: 100%;
     min-height: 600px; 
     background-image: url('./assets/Hero-bg.png');
     background-position: center;
