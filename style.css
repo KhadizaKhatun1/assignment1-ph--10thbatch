@@ -73,18 +73,19 @@ span{
 .section-container1{
     border: 2px solid red;
     position: absolute;
-    width: 1140px;
+    width: 1500px;
     height: 1395px;
-    left: 150px;
+    /* left: 150px;
     right: 150px;
     top: 837px;
-    bottom: 3013px;
+    bottom: 3013px; */
     /* Auto layout */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding: 80px 97px 80px 97px;
+    padding: 80px 97px 80px 150px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    margin-top: 20px;
 }
