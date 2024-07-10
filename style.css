@@ -17,9 +17,9 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
 .banner-content{
-    border: 2px solid red;
     margin-top: 5px;
     /* width: 70%; */
     /* height: 70%; */
@@ -47,7 +47,7 @@ body{
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     margin-top: 20px;
     
 }
