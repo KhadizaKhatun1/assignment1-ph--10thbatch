@@ -12,7 +12,7 @@ body{
 .banner-container{
     /* width: 1440px; */
     /* width: 1536px;*/
-    width: 100%;
+    /* width: 100%; */
     min-height: 600px; 
     background-image: url('./assets/Hero-bg.png');
     background-position: center;
@@ -90,3 +90,60 @@ span{
     background: rgba(13, 19, 33, 0.02);
     margin-top: 20px;
 }
+.section-content1{
+    border: 2px solid green;
+    position: static;
+    width: 946px;
+    height: 1235px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.section-content1 h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-content1 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* first div */
+.first-div{
+    position: static;
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+.first-div h5{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.first-div p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
