@@ -72,7 +72,7 @@ span{
 /* main sections style starts here */
 /* first section */
 .section-container{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     position: absolute;
     width: 1500px;
     height: 1150px;
@@ -256,4 +256,48 @@ button{
     background-color:whitesmoke;
    
 }
+.section-container2{
+    border: 2px solid red;
+    position: absolute;
+    width: 1520px;
+    height: 800px;
+    left: 148px;
+    right: 152px;
+    top: 1800px;
+    bottom: 2128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin-left: 95px;
 
+}
+.section-content2{
+    /* border: 2px solid red; */
+    position: static;
+    width: 1000px;
+    height: 150px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin: 24px 0px;
+}
+.section-container2 h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.video iframe{
+    position: static;
+    width: 1500px;
+    height: 600px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 20px;
+}
