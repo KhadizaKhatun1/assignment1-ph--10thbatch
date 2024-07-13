@@ -72,7 +72,7 @@ span{
 /* main sections style starts here */
 /* first section */
 .section-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     width: 1500px;
     height: 1150px;
@@ -146,27 +146,6 @@ span{
    
    
 }
-/* .first-div h5{
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 700;
-    position: static;
-    width: 490px;
-    height: 72px;
-    
-}
-
-.first-div p{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 10px;
-    position: static;
-    width: 600px;
-    height: 52px;
-} */
 .first-div p,
 .second-div p,
 .third-div p{
@@ -257,7 +236,7 @@ button{
    
 }
 .section-container2{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     width: 1520px;
     height: 800px;
@@ -303,10 +282,10 @@ button{
     margin-top: 35px;
 }
 .section-container3{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     width: 1515px;
-    height: 800px;
+    height: 700px;
     left: 150px;
     right: 150px;
     top: 2600px;
@@ -352,7 +331,7 @@ button{
     font-weight: 400;
 }
 /* html css javascript */
-.section-container4{
+.section-content4{
     position: static;
     width: 1500px;
     height: 300px;
@@ -417,12 +396,123 @@ input[type="checkbox"]:checked ~ .read-more {
 .js{
     background:rgba(255, 223, 0, 0.05);
 }
-.section-container4 img,h4,p{
+.section-content3 img,h4,p{
     padding-bottom: 30px;
 }
-.section-container4 h4{
+.section-content3 h4{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
+}
+.section-container4{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 1510px;
+    height: 600px;
+    left: 200px;
+    right: 300px;
+    top: 3300px;
+    bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 64px 30px 64px 20px;
+    margin-left: 50px;
+    background-image: url('./assets/handshake.jpg');
+}
+.section-container4{
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+
+}
+.section-content5{
+    position: static;
+    width: 300px;
+    height: 36px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.section-content5 h4{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 50px;
+
+}
+.section-content5 p{
+    /* border: 2px solid red; */
+    position: static;
+    width: 650px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.box{
+    
+    width: 400px;
+}
+
+.box input[type="text"]{
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    
+}
+.box input[type="submit"]{
+    margin-top: 20px;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.section-container5{
+    
+    position: absolute;
+    width: 1700px;
+    height: 200px;
+    left: 0;
+    top: 3850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 150px 32px 150px;
+    margin-top:79px;
+    margin-left: 100px;
+
+}
+.section-content6{
+    position: static;
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.section-content6 h6{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 700px;
+}
+.section-content6 a{
+    margin:25px;
 }
