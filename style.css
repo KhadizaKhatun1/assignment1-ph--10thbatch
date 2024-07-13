@@ -23,9 +23,9 @@ body{
 .banner-content{
     margin-top: 5px;
     width: 100%;
-    /* height: 70%;
+    /* height: 70%; */
     /* padding-left: 100px;*/
-    margin-left: 300px; 
+    margin-left: 150px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,8 +56,8 @@ span{
     padding:300px;
 }
 .contact-btn{
-    width: 150px;
-    height: 66px;
+    width: 250px;
+    height: 120px;
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -71,16 +71,11 @@ span{
 }
 /* main sections style starts here */
 /* first section */
-.section-container1{
-    border: 2px solid red;
+.section-container{
+    /* border: 2px solid red; */
     position: absolute;
     width: 1500px;
-    height: 1395px;
-    /* left: 150px;
-    right: 150px;
-    top: 837px;
-    bottom: 3013px; */
-    /* Auto layout */
+    height: 1150px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -90,9 +85,10 @@ span{
     margin-top: 50px;
     align-items: center;
     margin-left: 250px;
+    margin-bottom: 0;
 }
 .section-content1{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     position: static;
     width: 1500px;
     height: 100%;
@@ -105,11 +101,10 @@ span{
     
 }
 .main-content{
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
     position: static;
     width: 852px;
-    height: 150px;
-    margin-top: 50px;
+    height: 170px;
 }
 
 .main-content h3{
@@ -131,19 +126,35 @@ span{
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 50px;
+    width: 100%;
 }
 /* first div */
 .first-div{
+    /* border: 2px solid brown; */
     position: static;
-    width: 850px;
-    height: 240px;
-   margin-top: 48px;
+    width: 1050px;
+    height: 280px;
+    margin-top: 48px;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-left:0 ;
+    margin-bottom: 20px;
+    background-color:whitesmoke;
+   
+   
 }
-.first-div h5{
+/* .first-div h5{
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
+    position: static;
+    width: 490px;
+    height: 72px;
+    
 }
 
 .first-div p{
@@ -151,5 +162,98 @@ span{
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 10px;
+    position: static;
+    width: 600px;
+    height: 52px;
+} */
+.first-div p,
+.second-div p,
+.third-div p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    position: static;
+    width: 600px;
+    height: 52px; 
+
+}
+.first-div h5,
+.second-div h5,
+.third-div h5{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    position: static;
+    width: 490px;
+    height: 72px;
+
+}
+button{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px 20px 30px;
+    margin-left: 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    
+}
+/* Second div */
+.second-div{
+    /* border: 2px solid brown; */
+    position: static;
+    width: 1050px;
+    height: 280px;
+    margin-top: 48px;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-left:0 ;
+    margin-bottom: 20px;
+    background-color:whitesmoke;
+    
+   
+}
+.img2{
+    margin-right: 100px;
+}
+.second-div button{
+    margin-top: 30px;
+}
+/* Third div */
+.third-div{
+    /* border: 2px solid brown; */
+    position: static;
+    width: 1050px;
+    height: 280px;
+    margin-top: 48px;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-left:0 ;
+    background-color:whitesmoke;
+   
 }
 
